@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test-class Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Test2(failed)">
+    <parameter name="selectBrowser" value="firefox"/>
+    <classes>
+      <class name="com.cleartrip.testscripts.bookingsteps">
+        <methods>
+          <include name="searchflight1" invocation-numbers="0"/>
+          <include name="bookflight1"/>
+          <include name="bookingsteps" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cleartrip.testscripts.bookingsteps -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="selectBrowser" value="chrome"/>
+    <classes>
+      <class name="com.cleartrip.testscripts.bookingsteps">
+        <methods>
+          <include name="searchflight1" invocation-numbers="0"/>
+          <include name="bookflight1"/>
+          <include name="bookingsteps" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cleartrip.testscripts.bookingsteps -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

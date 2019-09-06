@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test1(failed)">
+    <parameter name="selectBrowser" value="chrome"/>
+    <classes>
+      <class name="com.cleartrip.testscripts.bookingsteps">
+        <methods>
+          <include name="searchflight1"/>
+          <include name="initializeBrowser"/>
+          <include name="loginflight1"/>
+          <include name="bookflight1"/>
+          <include name="bookingsteps1"/>
+        </methods>
+      </class> <!-- com.cleartrip.testscripts.bookingsteps -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
